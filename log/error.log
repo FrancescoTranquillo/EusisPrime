@@ -1,0 +1,254 @@
+library paths:
+... C:/Users/Fra/Downloads/MyApplication/app/library
+... C:/Users/Fra/Downloads/MyApplication/dist/R-Portable/App/R-Portable/library
+working path:
+... C:/Users/Fra/Downloads/MyApplication
+ensuring packages: jsonlite, shiny, tidyverse, dplyr, lubridate, readxl, magrittr, shinyWidgets, xts, zoo, dygraphs, highcharter, DT, here, shinymaterial, shiny, shinydashboard, installr, stringr, RInno, devtools, usethis, stats, graphics, grDevices, utils, datasets, methods, base
+
+Attaching package: 'shiny'
+
+The following object is masked from 'package:jsonlite':
+
+    validate
+
+-- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+v ggplot2 3.3.0     v purrr   0.3.3
+v tibble  2.1.3     v dplyr   0.8.5
+v tidyr   1.0.2     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter()   masks stats::filter()
+x purrr::flatten()  masks jsonlite::flatten()
+x dplyr::lag()      masks stats::lag()
+x shiny::validate() masks jsonlite::validate()
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+
+Attaching package: 'magrittr'
+
+The following object is masked from 'package:purrr':
+
+    set_names
+
+The following object is masked from 'package:tidyr':
+
+    extract
+
+Carico il pacchetto richiesto: zoo
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+
+Attaching package: 'xts'
+
+The following objects are masked from 'package:dplyr':
+
+    first, last
+
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Highcharts (www.highcharts.com) is a Highsoft software product which is
+not free for commercial and Governmental use
+
+Attaching package: 'DT'
+
+The following objects are masked from 'package:shiny':
+
+    dataTableOutput, renderDataTable
+
+here() starts at C:/Users/Fra/Downloads/MyApplication
+
+Attaching package: 'here'
+
+The following object is masked from 'package:lubridate':
+
+    here
+
+
+Attaching package: 'shinydashboard'
+
+The following object is masked from 'package:graphics':
+
+    box
+
+
+Welcome to installr version 0.22.0
+
+More information is available on the installr project website:
+https://github.com/talgalili/installr/
+
+Contact: <tal.galili@gmail.com>
+Suggestions and bug-reports can be submitted at: https://github.com/talgalili/installr/issues
+
+			To suppress this message use:
+			suppressPackageStartupMessages(library(installr))
+
+Version: 1.0.1
+Maintainer: Jon Hill <jon.mark.hill@gmail.com>
+License: GPL-3 | file LICENSE
+URL: www.ficonsulting.com
+
+Attaching package: 'RInno'
+
+The following object is masked from 'package:DT':
+
+    %>%
+
+The following object is masked from 'package:highcharter':
+
+    %>%
+
+The following object is masked from 'package:dygraphs':
+
+    %>%
+
+The following object is masked from 'package:magrittr':
+
+    %>%
+
+The following object is masked from 'package:forcats':
+
+    %>%
+
+The following object is masked from 'package:stringr':
+
+    %>%
+
+The following object is masked from 'package:dplyr':
+
+    %>%
+
+The following object is masked from 'package:purrr':
+
+    %>%
+
+The following object is masked from 'package:tidyr':
+
+    %>%
+
+Carico il pacchetto richiesto: usethis
+Registered S3 methods overwritten by 'remotes':
+  method               from 
+  format.github_remote RInno
+  format.remotes       RInno
+  print.package_deps   RInno
+
+Listening on http://127.0.0.1:7410
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BA1737 / R1737C53: got 'IBD Consumi - Consumables'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC3174 / R3174C55: got 'REF. 00060080000000'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ3174 / R3174C62: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BA3578 / R3578C53: got 'IBD Consumi - Consumables'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC4616 / R4616C55: got 'N.1 PER INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ4616 / R4616C62: got 'MAGAZZINO FARMACIA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BA5681 / R5681C53: got 'IBD Consumi - Consumables'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BD5814 / R5814C56: got '1963 conf.prev.23783727 del 10-02-2020'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BK5814 / R5814C63: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC5869 / R5869C55: got 'conf.prev 718/017 del 12-07-2019'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ5869 / R5869C62: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC5917 / R5917C55: got 'conf.prev. 2516/015 del 09-07-2019'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ5917 / R5917C62: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC5918 / R5918C55: got 'conf.prev. 2639/015 del 11-07-2019'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ5918 / R5918C62: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC6024 / R6024C55: got 'MOD. CARESCAPE V100'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ6024 / R6024C62: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC6058 / R6058C55: got 'SOSTITUZIONE IN EXCHANGE DELL'UNITA' PER TELEMETRIA ECG S/N SFY13121913GA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ6058 / R6058C62: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC6059 / R6059C55: got 'SOSTITUZIONE IN EXCHANGE DELL'UNITA' PER TELEMETRIA ECG S/N RAM09504894GA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ6059 / R6059C62: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC6292 / R6292C55: got 'CAPPA CHIMICA SN.5085264'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ6292 / R6292C62: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC6640 / R6640C55: got 'cr 975 sn.2359412'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BD6640 / R6640C56: got 'CR 850 SN.2359628'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BE6640 / R6640C57: got 'STAMPANTE DRY VIEW DV6800 SN.46528583'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BL6640 / R6640C64: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC7103 / R7103C55: got 'conf.prev.SAT16699/IC del 25-02-2019'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ7103 / R7103C62: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC7113 / R7113C55: got 'CODICE CUP E52F13000190001'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BD7113 / R7113C56: got 'CANONE NOLEGGIO DAL 01/01/2019 AL 30/04/2019'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BK7113 / R7113C63: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC7508 / R7508C55: got 'CODICE CUP E52F13000190001'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BD7508 / R7508C56: got 'CANONE NOLEGGIO DAL 01/01/2019 AL 31/12/2019'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BK7508 / R7508C63: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BA7830 / R7830C53: got 'IBD Consumi - Consumables'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BA7831 / R7831C53: got 'IBD Consumi - Consumables'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BA7832 / R7832C53: got 'IBD Consumi - Consumables'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BA7833 / R7833C53: got 'IBD Consumi - Consumables'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BA8071 / R8071C53: got 'IBD Consumi - Consumables'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC8164 / R8164C55: got 'AGGIUNTA OPZIONI PNI, PI, CO2'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ8164 / R8164C62: got 'INGEGNERIA CLINICA'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting numeric in BC8209 / R8209C55: got 'N.1 da tenere in ing. clinica'
+Warning in read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  :
+  Expecting logical in BJ8209 / R8209C62: got 'MAGAZZINO FARMACIA'
+New names:
+* CONTO -> CONTO...9
+* CONTO -> CONTO...27
+* `` -> ...64
+Warning in as.POSIXlt.POSIXct(x, tz = tz) : unknown timezone '%d/%m/%Y'
+[1] 2019 2020
+[1] "ACQ. MATERIALE DI LABORATORIO"
+Warning: `parse_quosure()` is deprecated as of rlang 0.2.0.
+Please use `parse_quo()` instead.
+This warning is displayed once per session.
+[1] 2019 2020
+[1] 2019 2020
+[1] "ACQ. MATERIALE DI LABORATORIO" "ACQ. TONER E CARTUCCE"        
+[1] 2019 2020
+[1] 2019 2020
+[1] "ACQ. MATERIALE DI LABORATORIO"        
+[2] "ACQ. TONER E CARTUCCE"                
+[3] "IMPIANTI APPARECCHIATURE SCIENTIFICHE"
+[1] 2019 2020
+application terminated normally
